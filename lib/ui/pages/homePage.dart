@@ -39,7 +39,6 @@ class HomePage extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             bloc.deleteUser();
-            // userCubit
           },
           child: const Text("delete"),
         ),
